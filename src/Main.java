@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String exercitiul = "Exercitiul ";
-        int tema = 0;
+        int tema = 1;
         String calcul = "Calcul";
 
-        System.out.println(exercitiul + ++tema + ": Printati \"Hello\" in consola, iar pe rand nou, printati numele vostru.");
+        System.out.println(exercitiul + tema + ": Printati \"Hello\" in consola, iar pe rand nou, printati numele vostru.");
         System.out.println("Hello\nMarilena\n");
 
         System.out.println(exercitiul + ++tema + ": Printati rezultatul sumei a doua numere(orice numere)");
